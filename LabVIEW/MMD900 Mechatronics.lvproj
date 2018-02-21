@@ -20,6 +20,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Calibration States.ctl" Type="VI" URL="../calibration_states.llb/Calibration States.ctl"/>
+		<Item Name="Calibration.vi" Type="VI" URL="../Calibration.vi"/>
 		<Item Name="Lens Calibration.vi" Type="VI" URL="../Lens Calibration.vi"/>
 		<Item Name="Mirror Image.vi" Type="VI" URL="../Mirror Image.vi"/>
 		<Item Name="PC_Main.vi" Type="VI" URL="../PC_Main.vi"/>
