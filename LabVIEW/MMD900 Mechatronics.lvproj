@@ -168,9 +168,12 @@ AddOutputFilter chunkFilter
 		<Item Name="Rio_Main.vi" Type="VI" URL="../Rio_Main.vi"/>
 		<Item Name="Rio_Theta_Angle_To_Steps.vi" Type="VI" URL="../Rio_Theta_Angle_To_Steps.vi"/>
 		<Item Name="Rio_Theta_Calibration.vi" Type="VI" URL="../Rio_Theta_Calibration.vi"/>
+		<Item Name="Rio_Theta_Motor_Calibration.vi" Type="VI" URL="../Rio_Theta_Motor_Calibration.vi"/>
+		<Item Name="Rio_Theta_Position.vi" Type="VI" URL="../Rio_Theta_Position.vi"/>
 		<Item Name="Rio_X_Motor.vi" Type="VI" URL="../Rio_X_Motor.vi"/>
 		<Item Name="Rio_X_Motor_PID_Speed_Control.vi" Type="VI" URL="../Rio_X_Motor_PID_Speed_Control.vi"/>
 		<Item Name="Rio_XY_Control.vi" Type="VI" URL="../Rio_XY_Control.vi"/>
+		<Item Name="stepper_half_sequence.ctl" Type="VI" URL="../stepper_half_sequence.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Calculate Clock Settings.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Calculate Clock Settings.vi"/>
