@@ -165,11 +165,18 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="1. Motion Control" Type="Folder">
+			<Item Name="1.1 - Theta Movement" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Rio_Theta_Movement.vi" Type="VI" URL="../Rio_Theta_Movement.vi"/>
+				<Item Name="Rio_Theta_Motor_Calibration.vi" Type="VI" URL="../Rio_Theta_Motor_Calibration.vi"/>
+				<Item Name="Rio_Theta_Position.vi" Type="VI" URL="../Rio_Theta_Position.vi"/>
+			</Item>
+			<Item Name="1.2 - XY Movement" Type="Folder"/>
+			<Item Name="Rio_Motion_Control.vi" Type="VI" URL="../Rio_Motion_Control.vi"/>
+		</Item>
 		<Item Name="Rio_Main.vi" Type="VI" URL="../Rio_Main.vi"/>
 		<Item Name="Rio_Theta_Angle_To_Steps.vi" Type="VI" URL="../Rio_Theta_Angle_To_Steps.vi"/>
-		<Item Name="Rio_Theta_Calibration.vi" Type="VI" URL="../Rio_Theta_Calibration.vi"/>
-		<Item Name="Rio_Theta_Motor_Calibration.vi" Type="VI" URL="../Rio_Theta_Motor_Calibration.vi"/>
-		<Item Name="Rio_Theta_Position.vi" Type="VI" URL="../Rio_Theta_Position.vi"/>
 		<Item Name="Rio_X_Motor.vi" Type="VI" URL="../Rio_X_Motor.vi"/>
 		<Item Name="Rio_X_Motor_PID_Speed_Control.vi" Type="VI" URL="../Rio_X_Motor_PID_Speed_Control.vi"/>
 		<Item Name="Rio_XY_Control.vi" Type="VI" URL="../Rio_XY_Control.vi"/>
