@@ -176,7 +176,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Rio_Motion_Control.vi" Type="VI" URL="../Rio_Motion_Control.vi"/>
 		</Item>
 		<Item Name="2. Kicker" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Kicker_Control.vi" Type="VI" URL="../Kicker_Control.vi"/>
+			<Item Name="Kicker_Collect_Kicking_Plate.vi" Type="VI" URL="../Kicker_Collect_Kicking_Plate.vi"/>
+			<Item Name="Kicker_Release_Kicking_Plate.vi" Type="VI" URL="../Kicker_Release_Kicking_Plate.vi"/>
 			<Item Name="Kicker_Electromagnet_Control.vi" Type="VI" URL="../Kicker_Electromagnet_Control.vi"/>
 			<Item Name="Kicker_Motor_Control.vi" Type="VI" URL="../Kicker_Motor_Control.vi"/>
 			<Item Name="Kicker_Sensor_Control.vi" Type="VI" URL="../Kicker_Sensor_Control.vi"/>
