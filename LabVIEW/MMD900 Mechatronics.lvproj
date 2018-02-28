@@ -184,8 +184,11 @@ AddOutputFilter chunkFilter
 			<Item Name="Kicker_Motor_Control.vi" Type="VI" URL="../Kicker_Motor_Control.vi"/>
 			<Item Name="Kicker_Sensor_Control.vi" Type="VI" URL="../Kicker_Sensor_Control.vi"/>
 		</Item>
+		<Item Name="Unused" Type="Folder">
+			<Item Name="Rio_Theta_Angle_To_Steps.vi" Type="VI" URL="../Rio_Theta_Angle_To_Steps.vi"/>
+		</Item>
 		<Item Name="Rio_Main.vi" Type="VI" URL="../Rio_Main.vi"/>
-		<Item Name="Rio_Theta_Angle_To_Steps.vi" Type="VI" URL="../Rio_Theta_Angle_To_Steps.vi"/>
+		<Item Name="Rio_Trap_Velocity.vi" Type="VI" URL="../Rio_Trap_Velocity.vi"/>
 		<Item Name="Rio_X_Motor.vi" Type="VI" URL="../Rio_X_Motor.vi"/>
 		<Item Name="Rio_X_Motor_PID_Speed_Control.vi" Type="VI" URL="../Rio_X_Motor_PID_Speed_Control.vi"/>
 		<Item Name="Rio_XY_Control.vi" Type="VI" URL="../Rio_XY_Control.vi"/>
