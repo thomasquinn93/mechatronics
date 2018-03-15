@@ -198,12 +198,16 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Rio_Main.vi" Type="VI" URL="../Rio_Main.vi"/>
 		<Item Name="Rio_Trapazodial_Velocity.vi" Type="VI" URL="../Rio_Trapazodial_Velocity.vi"/>
+		<Item Name="Rio_Trapazodial_Velocity_Time.vi" Type="VI" URL="../Rio_Trapazodial_Velocity_Time.vi"/>
 		<Item Name="Rio_X_Motor.vi" Type="VI" URL="../Rio_X_Motor.vi"/>
 		<Item Name="Rio_X_Motor_PID_Speed_Control.vi" Type="VI" URL="../Rio_X_Motor_PID_Speed_Control.vi"/>
 		<Item Name="Rio_XY_Control.vi" Type="VI" URL="../Rio_XY_Control.vi"/>
 		<Item Name="rio_shared_variables.lvlib" Type="Library" URL="../rio_shared_variables.lvlib"/>
 		<Item Name="stepper_half_sequence.ctl" Type="VI" URL="../stepper_half_sequence.ctl"/>
 		<Item Name="motor_control_inputs.ctl" Type="VI" URL="../motor_control_inputs.ctl"/>
+		<Item Name="Motor_Control.vi" Type="VI" URL="../Motor_Control.vi"/>
+		<Item Name="Rio_X_Motor_PID_Position_Control.vi" Type="VI" URL="../Rio_X_Motor_PID_Position_Control.vi"/>
+		<Item Name="Rio_Trapazodial_Velocity_V2.vi" Type="VI" URL="../Rio_Trapazodial_Velocity_V2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
