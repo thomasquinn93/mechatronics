@@ -175,14 +175,14 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="1. Motion Control" Type="Folder">
-			<Item Name="1.1 - Theta Movement" Type="Folder">
+			<Item Name="1.1 - Theta Movement (DONE)" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="Rio_Theta_Movement.vi" Type="VI" URL="../Rio_Theta_Movement.vi"/>
-				<Item Name="Rio_Theta_Motor_Calibration.vi" Type="VI" URL="../Rio_Theta_Motor_Calibration.vi"/>
-				<Item Name="Rio_Theta_Position.vi" Type="VI" URL="../Rio_Theta_Position.vi"/>
+				<Item Name="Rio_Theta_Movement_Main (DONE).vi" Type="VI" URL="../Rio_Theta_Movement_Main (DONE).vi"/>
+				<Item Name="Rio_Theta_Calibration_Sub (DONE).vi" Type="VI" URL="../Rio_Theta_Calibration_Sub (DONE).vi"/>
+				<Item Name="Rio_Theta_Position_Sub (DONE).vi" Type="VI" URL="../Rio_Theta_Position_Sub (DONE).vi"/>
 			</Item>
 			<Item Name="1.2 - XY Movement" Type="Folder"/>
-			<Item Name="Rio_Motion_Control.vi" Type="VI" URL="../Rio_Motion_Control.vi"/>
+			<Item Name="Rio_Motion_Control_Main.vi" Type="VI" URL="../Rio_Motion_Control_Main.vi"/>
 		</Item>
 		<Item Name="2. Kicker" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -208,6 +208,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Motor_Control.vi" Type="VI" URL="../Motor_Control.vi"/>
 		<Item Name="Rio_X_Motor_PID_Position_Control.vi" Type="VI" URL="../Rio_X_Motor_PID_Position_Control.vi"/>
 		<Item Name="Rio_Trapazodial_Velocity_V2.vi" Type="VI" URL="../Rio_Trapazodial_Velocity_V2.vi"/>
+		<Item Name="Rio_Motor_Setpoint_Ramp.vi" Type="VI" URL="../Rio_Motor_Setpoint_Ramp.vi"/>
+		<Item Name="Rio_X_PID.vi" Type="VI" URL="../Rio_X_PID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
@@ -357,6 +359,22 @@ AddOutputFilter chunkFilter
 				<Item Name="Validate Channels.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Validate Channels.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
+				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
+				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="ex_WaveformAttribs.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribs.ctl"/>
+				<Item Name="ex_GetAllExpressAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_GetAllExpressAttribs.vi"/>
+				<Item Name="Express Waveform Components.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Express Waveform Components.vi"/>
+				<Item Name="ex_SmoothingDesign.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/ex_SmoothingDesign.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="ex_Modify Signal Name.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signal Name.vi"/>
+				<Item Name="ex_Modify Signals Names.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signals Names.vi"/>
+				<Item Name="subFilter.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/FilterBlock.llb/subFilter.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
