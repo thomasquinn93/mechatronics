@@ -4,6 +4,20 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Rio States" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">rio_states.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../rio_states.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#]O!!!!"=!A!!!!!!"!+9!]1!!!!!!!!!"$H*J&lt;V^T&gt;'&amp;U:8-O9X2M!)]!&amp;A!,$%FO;82B&lt;'FT:3"971^*&lt;GFU97RJ=W5A6'BF&gt;'%-1W&amp;M;7*S982F)&amp;B:$U.B&lt;'FC=G&amp;U:3"5;'6U91V1;7.L&gt;8!A3WFD;W6S$&amp;*B;8.F)%NJ9WNF=A&gt;.&lt;X:F)&amp;B:#EVP&gt;G5A6'BF&gt;'%15W6U)%NJ9WNF=C"1&lt;X&gt;F=A2,;7.L"&amp;.U&lt;X!!!!!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="X Motor Control Inputs" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>

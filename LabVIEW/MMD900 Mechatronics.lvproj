@@ -4,6 +4,7 @@
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{841AF8E3-88D3-4B31-B7C4-91324A296E49}" Type="Ref">/NI-myRIO-1900-03050c32/rio_shared_variables.lvlib/Y Motor Control Inputs</Property>
 	<Property Name="varPersistentID:{BABB5381-CCFA-4ECB-98DF-A83947208CF1}" Type="Ref">/NI-myRIO-1900-03050c32/rio_shared_variables.lvlib/X Motor Control Inputs</Property>
+	<Property Name="varPersistentID:{DA930DDF-7327-4ACD-8A8F-B035E6C4C3B4}" Type="Ref">/NI-myRIO-1900-03050c32/rio_shared_variables.lvlib/Rio States</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -210,6 +211,10 @@ AddOutputFilter chunkFilter
 		<Item Name="Rio_Trapazodial_Velocity_V2.vi" Type="VI" URL="../Rio_Trapazodial_Velocity_V2.vi"/>
 		<Item Name="Rio_Motor_Setpoint_Ramp.vi" Type="VI" URL="../Rio_Motor_Setpoint_Ramp.vi"/>
 		<Item Name="Rio_X_PID.vi" Type="VI" URL="../Rio_X_PID.vi"/>
+		<Item Name="Rio_Y_PID.vi" Type="VI" URL="../Rio_Y_PID.vi"/>
+		<Item Name="Rio_XY_Shutdown_(DONE).vi" Type="VI" URL="../Rio_XY_Shutdown_(DONE).vi"/>
+		<Item Name="rio_states.ctl" Type="VI" URL="../rio_states.ctl"/>
+		<Item Name="Rio_XY_Initalise_(DONE).vi" Type="VI" URL="../Rio_XY_Initalise_(DONE).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
@@ -380,7 +385,6 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Rio_Theta_Control.vi" Type="VI" URL="../Rio_Theta_Control.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
