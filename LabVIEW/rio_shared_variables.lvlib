@@ -16,7 +16,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">rio_states.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../rio_states.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#]O!!!!"=!A!!!!!!"!+9!]1!!!!!!!!!"$H*J&lt;V^T&gt;'&amp;U:8-O9X2M!)]!&amp;A!,$%FO;82B&lt;'FT:3"971^*&lt;GFU97RJ=W5A6'BF&gt;'%-1W&amp;M;7*S982F)&amp;B:$U.B&lt;'FC=G&amp;U:3"5;'6U91V1;7.L&gt;8!A3WFD;W6S$&amp;*B;8.F)%NJ9WNF=A&gt;.&lt;X:F)&amp;B:#EVP&gt;G5A6'BF&gt;'%15W6U)%NJ9WNF=C"1&lt;X&gt;F=A2,;7.L"&amp;.U&lt;X!!!!!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#QL!!!!"=!A!!!!!!"!*I!]1!!!!!!!!!"$H*J&lt;V^T&gt;'&amp;U:8-O9X2M!)-!&amp;A!,$%.B&lt;'FC=G&amp;U:3"971J.&lt;X:F)&amp;2I:82B"UVP&gt;G5A7&amp;E/1W^M&lt;'6D&gt;#",;7.L:8).5'FD;X6Q)%NJ9WNF=AZ3:82S97.U)%NJ9WNF=AN)&lt;WRE)%NJ9WNF=A2,;7.L#V*F&gt;(6S&lt;C")&lt;WVF#5ZF?(1A5WBP&gt;!24&gt;'^Q!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="X Motor Control Inputs" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
