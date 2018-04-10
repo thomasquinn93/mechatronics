@@ -215,6 +215,8 @@ AddOutputFilter chunkFilter
 		<Item Name="rio_states.ctl" Type="VI" URL="../rio_states.ctl"/>
 		<Item Name="Rio_XY_Initalise_(DONE).vi" Type="VI" URL="../Rio_XY_Initalise_(DONE).vi"/>
 		<Item Name="Rio_XY_Shutdown_(DONE).vi" Type="VI" URL="../Rio_XY_Shutdown_(DONE).vi"/>
+		<Item Name="Rio_Shutdown (DONE).vi" Type="VI" URL="../Rio_Shutdown (DONE).vi"/>
+		<Item Name="Rio_Startup (DONE).vi" Type="VI" URL="../Rio_Startup (DONE).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
