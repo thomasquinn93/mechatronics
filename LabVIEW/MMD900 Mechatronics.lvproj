@@ -217,6 +217,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Rio_XY_Shutdown_(DONE).vi" Type="VI" URL="../Rio_XY_Shutdown_(DONE).vi"/>
 		<Item Name="Rio_Shutdown (DONE).vi" Type="VI" URL="../Rio_Shutdown (DONE).vi"/>
 		<Item Name="Rio_Startup (DONE).vi" Type="VI" URL="../Rio_Startup (DONE).vi"/>
+		<Item Name="Rio_Collect_Kicker (DONE).vi" Type="VI" URL="../Rio_Collect_Kicker (DONE).vi"/>
+		<Item Name="Rio_Pickup_Kicker (DONE).vi" Type="VI" URL="../Rio_Pickup_Kicker (DONE).vi"/>
+		<Item Name="Rio_Retract_Kicker (DONE).vi" Type="VI" URL="../Rio_Retract_Kicker (DONE).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
@@ -383,6 +386,10 @@ AddOutputFilter chunkFilter
 				<Item Name="roboRIO v1.0 Read AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AI/vis/roboRIO v1.0 Read AI.vi"/>
 				<Item Name="roboRIO AI Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AI/typedefs/roboRIO AI Channels FPGA Reference.ctl"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
+				<Item Name="subReformatInterpPoints.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/ScaleandMapBlock.llb/subReformatInterpPoints.vi"/>
+				<Item Name="scalingTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/scalingTypes.ctl"/>
+				<Item Name="subScaling.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/ScaleandMapBlock.llb/subScaling.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
