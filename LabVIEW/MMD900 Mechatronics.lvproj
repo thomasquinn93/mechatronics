@@ -220,6 +220,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Rio_Collect_Kicker (DONE).vi" Type="VI" URL="../Rio_Collect_Kicker (DONE).vi"/>
 		<Item Name="Rio_Pickup_Kicker (DONE).vi" Type="VI" URL="../Rio_Pickup_Kicker (DONE).vi"/>
 		<Item Name="Rio_Retract_Kicker (DONE).vi" Type="VI" URL="../Rio_Retract_Kicker (DONE).vi"/>
+		<Item Name="Rio_Coordinate_Array (DONE).vi" Type="VI" URL="../Rio_Coordinate_Array (DONE).vi"/>
+		<Item Name="Rio_Move_XY (DONE).vi" Type="VI" URL="../Rio_Move_XY (DONE).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
