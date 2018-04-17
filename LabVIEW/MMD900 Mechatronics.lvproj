@@ -222,6 +222,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Rio_Retract_Kicker (DONE).vi" Type="VI" URL="../Rio_Retract_Kicker (DONE).vi"/>
 		<Item Name="Rio_Coordinate_Array (DONE).vi" Type="VI" URL="../Rio_Coordinate_Array (DONE).vi"/>
 		<Item Name="Rio_Move_XY (DONE).vi" Type="VI" URL="../Rio_Move_XY (DONE).vi"/>
+		<Item Name="Rio_Sequence_Selection (DONE).vi" Type="VI" URL="../Rio_Sequence_Selection (DONE).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
@@ -392,6 +393,8 @@ AddOutputFilter chunkFilter
 				<Item Name="subReformatInterpPoints.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/ScaleandMapBlock.llb/subReformatInterpPoints.vi"/>
 				<Item Name="scalingTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/scalingTypes.ctl"/>
 				<Item Name="subScaling.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/ScaleandMapBlock.llb/subScaling.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
